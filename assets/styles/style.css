@@ -1,0 +1,184 @@
+/*CSS Variables*/
+:root {
+	--primary: #ddd;
+	--dark: rgba(0,0,0,0.87);
+	--light: #fff;
+	--shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	margin: 5px 35px;
+}
+
+li {
+	list-style: none;
+}
+
+
+.main-grid {
+	display: grid;
+	grid-gap: 20px;
+}
+
+/* Top Links*/
+.top-nav > ul {
+	display: flex;
+	padding: 0px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.top-nav a {
+	text-decoration: none;
+	color: var(--dark);
+	font-size: 13px;
+}
+
+.hovgroup a:hover {
+	text-decoration: underline;
+}
+
+.gmail,
+.images,
+.grd {
+	padding: 0px 10px;
+}
+
+.grd {
+	padding-right: 20px;
+}
+
+.gmail {
+	margin-left: auto;
+}
+
+/* Middle Section */
+.middle-section{
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+}
+
+.search-area {
+	display: grid;
+	justify-items: center;
+}
+
+.search-area a {
+	text-decoration: none;
+}
+
+input {
+	outline: none; /*this will remove the rectangular outline from the search box*/
+}
+
+.search-box {
+	margin: 15px 0px;
+	width: 100%;
+	padding: 13px;
+	border-radius: 30px;
+	font-size: 16px;
+}
+
+.search-box:hover {
+	box-shadow: var(--shadow);
+}
+
+.mid-section-buttons > ul {
+	display: flex;
+
+}
+
+.mid-section-buttons a {
+	text-decoration: none;
+	color: var(--dark);
+}
+
+.mid-section-buttons li {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+.mid-section-buttons .btn {
+	background-color: #f2f2f2;
+	border: 5px solid #f2f2f2;
+	border-radius: 4px;
+	min-width: 54px;
+	padding: 5px 16px;
+	text-align: center;
+	margin:0px 5px;
+}
+
+.mid-section-buttons .btn:hover {
+	border: #f8f8f8;
+	border:1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.mid-section-text {
+	margin-bottom: 30px;
+}
+
+.mid-section-text > p {
+	color: var(--dark);
+	font-size: 13px;
+}
+
+.mid-section-text a {
+	text-decoration: none;
+	margin: 0px 5px;
+}
+
+.mid-section-text a:hover {
+	text-decoration: underline;
+}
+
+/* FOOTER */
+
+.bottom-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.loc > p {
+	padding: 10px 0px;
+	margin:0px; 
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	color: rgba(0, 0, 0, .54);
+}
+
+.bottom-nav > ul {
+	display: flex;
+	padding: 0px;
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+.bottom-nav a {
+	text-decoration: none;
+	color: var(--dark);
+	font-size: 13px;
+}
+
+.bottom-nav a:hover {
+	text-decoration: underline;
+}
+
+.hsw {
+	margin-right: auto;
+}
+
+.advert, 
+.business,
+.about,
+.privacy,
+.terms {
+	margin-right: 20px;
+}
